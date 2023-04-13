@@ -10,4 +10,9 @@ public class CinchDispatchController {
   public String index() {
     return "Hello World from Spring Boot";
   }
+
+  @GetMapping("/say-hello")
+  public String sayHello() {
+    return "Hello";
+  }
 }
